@@ -34,7 +34,9 @@ Implement class `Sorter` with next methods:
   console.log(sorter.toArray()) // [1, 2]
 ```
 
-`setComparator` - takes `compareFunction` as parameter and use it while sorting elements. You can read about `compareFunction` [here](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/sort). **Sort should work for numbers by default (if compareFunction was not set directly using this method)** For example:
+`setComparator` - takes `compareFunction` as parameter and use it while sorting elements.
+You can read about `compareFunction` [here](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/sort).
+**Sort should work for numbers by default (if compareFunction was not set directly using this method)** For example:
 ```js
   const sorter = new Sorter();
   sorter.add(2);
